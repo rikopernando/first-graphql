@@ -1,0 +1,20 @@
+{
+  "name": "code-server",
+  "version": "1.0.0",
+  "description": "Learn GraphQL",
+  "main": "index.js",
+  "author": "Riko pernando",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-graphql": "^0.9.0",
+    "graphql": "^15.0.0",
+    "massive": "^6.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
